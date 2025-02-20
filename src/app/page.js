@@ -95,7 +95,7 @@ setShowModal(true)
           showPopUp(item)
         })}>
           <div className='relative rounded overflow-hidden cursor-pointer transition hover:opacity-40'>
-                <div className="h-[250px] overflow-hidden">
+                <div className="overflow-hidden md:max-h-[250px]">
               <Image
                 height={200}
                 width={300}
